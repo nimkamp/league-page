@@ -128,7 +128,7 @@
 		</ul>
 	</div>
 	<!-- PLEASE DO NOT REMOVE THE COPYRIGHT -->
-	<span class="copyright">&copy; 2021 - {year} <a href="https://github.com/nimkamp/league-page">League Page</a></span>
+	<span class="copyright">&copy; 2025 - {year} <a href="https://github.com/nimkamp/league-page">League Page</a></span>
 	<br />
 	<!-- PLEASE DO NOT REMOVE THE BUILT BY -->
 	<span class="creator">Built by Nicholas Imkamp<br /></span>
