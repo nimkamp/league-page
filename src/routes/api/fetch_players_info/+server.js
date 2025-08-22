@@ -10,7 +10,7 @@ export async function GET() {
         fetch(`https://api.sleeper.app/v1/league/${leagueID}`, {compress: true}),
         fetch(`https://api.sleeper.app/v1/league/${leagueID}/winners_bracket`, {compress: true}),
     )
-    
+
     const [nflState, leagueData, playoffs] = await waitForAll(
         nflStateRes.json(),
         leagueDataRes.json(),
@@ -31,7 +31,7 @@ export async function GET() {
             fetch(`https://api.sleeper.app/projections/nfl/${year}/${week}?season_type=regular&position[]=DB&position[]=DEF&position[]=DL&position[]=FLEX&position[]=IDP_FLEX&position[]=K&position[]=LB&position[]=QB&position[]=RB&position[]=REC_FLEX&position[]=SUPER_FLEX&position[]=TE&position[]=WR&position[]=WRRB_FLEX&order_by=ppr`, {compress: true})
         );
     }
-	
+
 	const responses = await waitForAll(...resPromises);
 
     const resJSONs = [];
@@ -78,7 +78,7 @@ const computePlayers = (playerData, weeklyData, scoringSettings) => {
     for(let week = 1; week <= weeklyData.length; week++) {
         for(const player of weeklyData[week - 1]) {
             const id = player.player_id;
-            
+
             // check if the player is active in the NFL
             if(computedPlayers[id] == null || !computedPlayers[id].wi) continue;
 
