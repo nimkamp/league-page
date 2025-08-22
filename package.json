@@ -7,35 +7,35 @@
     "url": "git://github.com/nmelhado/league-page.git"
   },
   "author": {
-    "name": "Nicholas Melhado",
-    "email": "n.melhado@gmail.com",
-    "url": "http://www.nmelhado.com/"
+    "name": "Nicholas Imkamp",
+    "email": "imkampn@gmail.com",
+    "url": "http://github.com/nimkamp"
   },
   "contributors": [
     {
-      "name": "Shane Tjong-Akiet",
-      "url": "https://github.com/shanetj"
+      "name": "",
+      "url": ""
     },
     {
-      "name": "Scottie Garcia",
-      "url": "https://github.com/scottiegarcia"
+      "name": "",
+      "url": ""
     },
     {
-      "name": "DOLO",
-      "url": "https://github.com/1600dolo"
+      "name": "",
+      "url": ""
     },
     {
-      "name": "OldNewsBlues-2",
-      "url": "https://github.com/OldNewsBlues-2"
+      "name": "",
+      "url": ""
     }
   ],
   "funding": {
-    "type": "buy_me_a_coffee",
-    "url": "https://www.buymeacoffee.com/nmelhado"
+    "type": "",
+    "url": ""
   },
   "bugs": {
-    "url": "https://github.com/nmelhado/league-page/issues",
-    "email": "n.melhado@gmail.com"
+    "url": "https://github.com/nimkamp/league-page/issues",
+    "email": "imkampn@gmail.com"
   },
   "license": "MIT",
   "engines": {
